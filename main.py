@@ -13,7 +13,7 @@ template = """
     FORMAT: Present the result in the following order: (PRODUCT DESCRIPTION), (BENEFITS), (USE CASE);
     PRODUCT DESCRIPTION: describe the product in 5 sentences;
     BENEFITS: describe in 3 sentences why this product is perfect considering customers age group and skin type;
-    USE CASE: write a story in 5 sentences, of an example weekend activity taking into account skin type {skintype} and age {agegroup}, write a story in first person, example "I started my Saturday morning with ...";
+    USE CASE: write a story in 5 sentences, of an example weekend activity taking into account skin type {skintype} and age {agegroup}, write a story in first person, example "I started my Saturday morning with ..."; OUTPUT TEXT in Estonian;
 """
 
 prompt = PromptTemplate(
@@ -75,7 +75,7 @@ if len(content_input.split(" ")) > 700:
 
 def update_text_with_example():
     print ("in updated")
-    st.session_state.content_input = "t shirts, all clolors, cotton, responsible manufacturing"
+    st.session_state.content_input = "moisturizing face cream, lemon and lime scents, organic ingredients"
 
 st.button("*GENERATE TEXT*", type='secondary', help="Click to see an example of the content you will be converting.", on_click=update_text_with_example)
 
