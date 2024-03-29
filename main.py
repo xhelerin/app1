@@ -37,7 +37,7 @@ with col1:
     \n\n Kasutusjuhend: 1)	Loo üldine, personaliseerimata turundustekst kodulehele tootekirjelduseks. 2)	Pane paika sihtrühm, sõltuvalt vanusest ja nahatüübist. 3)	Sisesta ükshaaval sihtrühmade lõikes eeltoodud info äppi ja saada see ära. 4)	Kopeeri ükshaaval sihtrühmade lõikes äpi loodud väljundtekst vastava toote kirjelduse lehele.")
 
 with col2:
-    st.image(image='companylogo.jpg', caption='Natural and healthy shirts for everybody')
+    st.image(image='companylogo.jpg', caption='Ilutooted igale nahatüübile')
 
 st.markdown("## Enter Your Content To Convert")
 
