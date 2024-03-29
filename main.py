@@ -34,8 +34,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("Otstarve: tootetutvustustekstide personaliseerimine igale kliendile või kliendigruppidele; väljundtekst on kohandatud kliendi a) vanuserühmaga ja b) nahatüübiga; sisendtekstiks on neutraalses vormis tootekirjeldus. \
-    \n\n Kasutusjuhend: 1) valmista ette tootekirjeldus (sisendtekst). 2) määra tarbijasegemendid lähtuvalt vanuserühma ja nahatüübi kombinatsioonidest. 3) sisesta ükshaaval tarbijasegmentide lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
-    4) kopeeri ükshaaval tarbijasegmentide lõikes äpi väljundteksti kõnealuse toote tutvustuslehele.")
+    \n\n Kasutusjuhend: 1)	Loo üldine, personaliseerimata turundustekst kodulehele tootekirjelduseks. 2)	Pane paika sihtrühm, sõltuvalt vanusest ja nahatüübist. 3)	Sisesta ükshaaval sihtrühmade lõikes eeltoodud info äppi ja saada see ära. 4)	Kopeeri ükshaaval sihtrühmade lõikes äpi loodud väljundtekst vastava toote kirjelduse lehele.")
 
 with col2:
     st.image(image='companylogo.jpg', caption='Natural and healthy shirts for everybody')
